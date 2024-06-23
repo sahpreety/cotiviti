@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #31006E;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    width: 100%;
+
+}
+#logo{
+    width:220px;
+    
+}
+#menu a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+#menu li{
+    display: inline-block;
+}
+#menu{
+    list-style-type: none;
+}
+nav{
+    float: right;
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#intro{
+   background-color: #31006E;
+   background-image: url(images/banner-pattern.png);
+   background-repeat: no-repeat;
+   background-position:center right ;
+   background-size:60% auto ;
+   padding-top: 100px;
+   padding-bottom: 100px;
+
+
+
+}
+h1{
+    color: white;
+}
+#white-box{
+    background-color: white;
+    width: 50%;
+    padding: 20px;
+    margin-top: 30px;
+}
+#white-box small{
+    color: #7f7f7f;
+}
+#white-box h2{
+    color: #31006E;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#white-box p{
+    color: #e6073f;
+}
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#about p{
+    margin-bottom: 20px;
+}
+#half{
+    width: 50%;
+}
+#about{
+    background-image: url(images/building.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: auto 100%;
+}
+#parallax{
+    background-image: url(images/parallax-home.jpg);
+    background-position: center;
+    height: 400px;
+    background-attachment: fixed;
+}
+#vacancy h2{
+    text-align: center;
+    color:#31006E ;
+
+}
+#vacancy p{
+    text-align: center;
+}
+#box{
+    border: 2px dotted rgb(243, 235, 240);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#box p{
+    color:rgb(223, 18, 144) ;
+    font-size: 20px;
+    text-align: left;
+}
+#box p:hover{
+    color:#31006E ;
+}
+#box:hover{
+    color:rgb(226, 11, 144) ;
+}
+#D img{
+   width: 100%;
+   margin-top: 40px;
+}
+#C{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+#E{
+    font-size: 30px;
+}
+#F{
+    font-size: 15px;
+}
+#container{
+    background-color: #7f7f7f;
+
+}
+#btn a{
+    padding: 10px 15px;
+    /* background: transparent; */
+    border-radius: 3px;
+    border: 1px solid #0f0fc0;
+    font-size: 16px;
+    color: #0f0fc0;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 20px;
+    
+
+
+  
+}
+
+    
